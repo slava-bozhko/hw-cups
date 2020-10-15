@@ -27,8 +27,6 @@ ul{
     cursor: pointer;
     align-self: center;
     border-color: white;
-    /* border-top: 30px solid transparent;
-    border-bottom: 30px solid transparent; */
 }
 .price{
     font-size: 70px;
@@ -39,9 +37,7 @@ ul{
     transition: all .5s ease-in-out;
     
 }
-/* .coffee{
-    margin: 30px 0 30px 0;
-} */
+
 .namecof{
     font-size: 56px;
     font-weight: 300;
@@ -53,23 +49,20 @@ ul{
     font-size: 20px;
     font-weight: 300;
 }
-/* .lgm{
-    margin: 60px 0px 25px 0px;
-}
-.lgmb{
-    margin-bottom: 60px;
-} */
+
 .styleli:hover {
-    margin: 30px auto; 
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+    /* margin: 30px auto; 
     border-top: 30px solid #fff;
     border-bottom: 30px solid  #fff;
     box-shadow: #fff;    
     transition: all .3s ease-in-out;
-    box-shadow:  1px 1px 0 #FFE3BD, 2px 2px 0 #FFE3BD, 3px 3px 0 #FFE3BD, 4px 4px 0 #FFE3BD, 5px 5px 0 #FFE3BD;
+    box-shadow:  1px 1px 0 #FFE3BD, 2px 2px 0 #FFE3BD, 3px 3px 0 #FFE3BD, 4px 4px 0 #FFE3BD, 5px 5px 0 #FFE3BD; */
 
 }
-.styleli:hover .price{
-    margin: 0px 0 40px 0;
+/* .styleli:hover .price{
+    /* margin: 0px 0 40px 0;
     transition: all .7s ease-in-out .3s;
     text-shadow: 1px 1px 0 #FFE3BD, 2px 2px 0 #FFE3BD, 3px 3px 0 #FFE3BD, 4px 4px 0 #FFE3BD, 5px 5px 0 #FFE3BD;
-}
+} */
