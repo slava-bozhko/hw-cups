@@ -5,35 +5,43 @@
 
 body{
     background-color: #fdde7e;
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
 }
 .container{
     max-width: 1200px;
-    margin: 70px auto;
+    margin: 50px auto;
 }
 ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    list-style: none;
+    
 }
 .styleli{
-    list-style: none;
-    margin: 0 auto;
+    margin: 80px auto;
     text-align: center;
     padding: 0px;
     width: 30%;
     background-color: #ffffff;
+    cursor: pointer;
+    align-self: center;
+    border-color: white;
+    /* border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent; */
 }
 .price{
     font-size: 70px;
     font-weight: 700;
     text-align: center;
     color: #02995b;
-    margin: 30px 0px 25px 0px;
+    margin: 20px 0px 30px 0px;
+    transition: all .5s ease-in-out;
+    
 }
-.coffee{
-    background-color: #ffffff;
-}
+/* .coffee{
+    margin: 30px 0 30px 0;
+} */
 .namecof{
     font-size: 56px;
     font-weight: 300;
@@ -45,9 +53,23 @@ ul{
     font-size: 20px;
     font-weight: 300;
 }
-.lgm{
+/* .lgm{
     margin: 60px 0px 25px 0px;
 }
 .lgmb{
     margin-bottom: 60px;
+} */
+.styleli:hover {
+    margin: 30px auto; 
+    border-top: 30px solid #fff;
+    border-bottom: 30px solid  #fff;
+    box-shadow: #fff;    
+    transition: all .3s ease-in-out;
+    box-shadow:  1px 1px 0 #FFE3BD, 2px 2px 0 #FFE3BD, 3px 3px 0 #FFE3BD, 4px 4px 0 #FFE3BD, 5px 5px 0 #FFE3BD;
+
+}
+.styleli:hover .price{
+    margin: 0px 0 40px 0;
+    transition: all .7s ease-in-out .3s;
+    text-shadow: 1px 1px 0 #FFE3BD, 2px 2px 0 #FFE3BD, 3px 3px 0 #FFE3BD, 4px 4px 0 #FFE3BD, 5px 5px 0 #FFE3BD;
 }
