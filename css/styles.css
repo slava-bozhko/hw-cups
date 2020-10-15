@@ -7,17 +7,19 @@ body{
     background-color: #fdde7e;
     font-family: 'Lato', sans-serif;
 }
+
 .container{
     max-width: 1200px;
     margin: 50px auto;
 }
+
 ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    
 }
+
 .styleli{
     margin: 80px auto;
     text-align: center;
@@ -26,16 +28,16 @@ ul{
     background-color: #ffffff;
     cursor: pointer;
     align-self: center;
-    border-color: white;
+    transition: all .3s ease-in-out;
 }
+
 .price{
     font-size: 70px;
     font-weight: 700;
     text-align: center;
     color: #02995b;
     margin: 20px 0px 30px 0px;
-    transition: all .5s ease-in-out;
-    
+    transition: all .3s ease-in-out;  
 }
 
 .namecof{
@@ -43,6 +45,7 @@ ul{
     font-weight: 300;
     margin: 20px;
 }
+
 .bonus{
     max-width: 150px;
     margin: 40px auto;
@@ -50,19 +53,9 @@ ul{
     font-weight: 300;
 }
 
-.styleli:hover {
-    transform: scale(1.1);
+.styleli:hover,
+.styleli:focus,
+.styleli:active {
+    transform: scale(1.05);
     transition: all .3s ease-in-out;
-    /* margin: 30px auto; 
-    border-top: 30px solid #fff;
-    border-bottom: 30px solid  #fff;
-    box-shadow: #fff;    
-    transition: all .3s ease-in-out;
-    box-shadow:  1px 1px 0 #FFE3BD, 2px 2px 0 #FFE3BD, 3px 3px 0 #FFE3BD, 4px 4px 0 #FFE3BD, 5px 5px 0 #FFE3BD; */
-
 }
-/* .styleli:hover .price{
-    /* margin: 0px 0 40px 0;
-    transition: all .7s ease-in-out .3s;
-    text-shadow: 1px 1px 0 #FFE3BD, 2px 2px 0 #FFE3BD, 3px 3px 0 #FFE3BD, 4px 4px 0 #FFE3BD, 5px 5px 0 #FFE3BD;
-} */
